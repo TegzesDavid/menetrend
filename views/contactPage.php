@@ -5,7 +5,22 @@
   
   <?php echo $page['text']; ?>
   
-  <p>Űrlap
+  <h3>Üzenetküldés:</h3>
+  <form name="contactForm" method="post">
+    <label>Név:</label>
+    <br>
+    <input type="text" name="contactName">
+    <br>
+    <label>e-mail:</label>
+    <br>
+    <input type="email" name="contactEmail">
+    <br>
+    <label>Üzenet:</label>
+    <br>
+    <textarea name="contactMessage"></textarea>
+    <br>
+    <input type="submit" name="contactSubmit">
+  </form>
     
   <p>Google map
 

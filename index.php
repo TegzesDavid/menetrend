@@ -2,7 +2,8 @@
 
 session_start();
 
-$db = new mysqli('localhost', 'root', '', 'phpportal');
+require_once 'config.php';
+$db = new mysqli($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
 $db->set_charset('utf8');
 
 // Aktuális lap kiválasztása:
