@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SOMOGY MEGYEI HELYIJÁRATÚ MENETREND - <?php echo $pageTitle; ?></title>
+    <title>- <?php echo $pageTitle; ?></title>
     
     <!-- jQuery: -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -22,6 +22,6 @@
   <body>
 
     <div id="header">
-      <h1 id="sitename">SOMOGY MEGYEI HELYIJÁRATÚ MENETREND</h1>
-      <?php include('navigation.php'); ?>
+      <h1 id="sitename"></h1>
+     <?php include('navigation.php'); ?>
     </div>

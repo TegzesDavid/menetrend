@@ -3,34 +3,48 @@
     Author     : rych
 */
 
+
 body {
   margin: 0;
+  
+  padding: 0;
+  
 }
 
 #header {
   background-color: #56c04e;
   padding: 10px 20px;
+  background-image: url(Image/banner.jpg);
+  
 }
 #header h1#sitename {
-  margin: 5;
+  margin: 30px 0 70px 0;
   color: white;
   text-align: center;
   font-weight: bold;
+  font-style: A;
+  height: 70px;
+  
+  
 }
 
 #content {
   padding: 10px 20px;
   background-color: #cdffc9;
+  
+  
 }
 
 .news {
   margin-bottom: 15px;
+  
 }
 .news .title {
   border-bottom: 1px solid #555;
   color: #555;
   font-weight: bold;
   font-size: 1.3em;
+  
 }
 .news .text {
   margin: 5px 0;
@@ -55,4 +69,18 @@ body {
     color: black;
     background: #dddddd;
     font-weight: bold;
+    
+}
+
+.nav-pills > li + li {
+ margin-left: 6px;
+}
+.nav-pills > li > a {
+   border-radius: 190px;
+}
+
+.nav > li > a {
+    display: block;
+    padding: 1px 180px;
+    position: relative;
 }

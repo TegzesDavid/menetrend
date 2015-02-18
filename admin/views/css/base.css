@@ -8,16 +8,19 @@ body {
 }
 
 #header {
-  background-color: #c194f5;
+  background-color: #56c04e;
   padding: 10px 20px;
 }
 #header h1#sitename {
-  margin: 0;
+  margin: 5;
+  color: white;
+  text-align: center;
+  font-weight: bold;
 }
 
 #content {
   padding: 10px 20px;
-  background-color: #ede8be;
+  background-color: #cdffc9;
 }
 
 .news {
@@ -38,7 +41,18 @@ body {
 }
 
 #footer {
-  background-color: #7b0603;
+  background-color: #272c26;
   color: white;
   padding: 10px 20px;
+}
+
+#header #navigation a {
+    color: black;
+    background: #b7ffb1;
+    font-weight: bold;
+}
+#header #navigation a:hover {
+    color: black;
+    background: #dddddd;
+    font-weight: bold;
 }
