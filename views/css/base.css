@@ -12,11 +12,12 @@ body {
 }
 
 #header {
-    background-color: #56c04e;
+    background-color: #cdffc9;
     padding: 10px 0;
     background-image: url(../../Image/banner.jpg);
     max-width: 960px;
     margin: 0 auto;
+    background-repeat: repeat-x;
 }
 #myCarousel{
     max-width: 245px;
