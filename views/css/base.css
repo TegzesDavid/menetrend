@@ -7,7 +7,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(../../Image/road.jpg);
+    background: #599a68;
+    
     
 }
 
@@ -40,6 +41,7 @@ body {
 }
 
 #content {
+    text-align: center;
     padding: 10px 20px;
     background-color: #cdffc9;
     max-width: 960px;
@@ -68,8 +70,9 @@ body {
 }
 
 #footer {
-    background-color: #272c26;
-    color: white;
+    background-color: #b7d0dd;
+    text-align: center;
+    color: black;
     padding: 10px 20px;
     max-width: 960px;
     margin: 0 auto;
@@ -101,4 +104,20 @@ body {
     position: relative;
 
 }
+.jaratok{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
 
+.jaratok th,
+.jaratok td {
+    border: 1px solid black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 55px;
+    padding-right: 55px;
+    background-color: #33FF66;
+   
+    
+}
