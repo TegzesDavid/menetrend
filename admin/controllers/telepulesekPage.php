@@ -13,7 +13,7 @@ if (isset($_POST['telepulesSubmit'])) {
     }
 }
 
-$query = "SELECT * FROM telepulesek";
+$query = "SELECT * FROM telepulesek ORDER BY nev";
 $telepulesek = $db->query($query);
 if ($db->errno) {
     die($db->error);

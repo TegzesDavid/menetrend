@@ -36,6 +36,10 @@ switch ($page) {
         include('controllers/jaratokPage.php');
         include('views/jaratokPage.php');
         break;
+    case 'ujjarat':
+        include('controllers/ujJaratPage.php');
+        include('views/ujJaratPage.php');
+        break;
     case 'kijelentkezes':
         unset($_SESSION['logged']);
         include('controllers/loginPage.php');
