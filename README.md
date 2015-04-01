@@ -1,6 +1,6 @@
-# PHP Portál
-
-<h2>Tartalomkezelő oldal php nyelven, MySQL adatbátissal.</h2>
+# Menetrend
+<p> Készítette: Tegzes Dávid
+<h2>Busz Menetrend php nyelven, MySQL adatbátissal.</h2>
 
 <p>A projekt oktató jelleggel jött létre, fokozatosan kerülnek bele új funkciók 
 és biztonsági beállítások. Az alkalmazás jelen állapotában semmiképp sem ajánlott
